@@ -1,0 +1,37 @@
+.toolbar-item-spacer {
+    flex: 1 1 auto;
+}
+
+.tool-bar{
+    background-color: rgb(46, 46, 46);
+}
+
+.system-content{
+    background-color: rgb(233, 233, 233);
+}
+
+.app-sidenav {
+    width: 230px;
+}
+.app-sidenav-content {
+    display: flex;
+    height: 100%;
+} 
+
+.mat-toolbar {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#container {
+    top: 64px !important;
+   }
+   
+   @media(max-width: 599px) {
+     #container {
+       top: 56px !important;
+     }
+   }
+
